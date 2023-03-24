@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <form>
+          <select class="cont"> 
+            <option value="defaultvalue" selected disabled class="janr"> Janr</option>
+          </select>
+
+          <input type="text" name="name" class="name" placeholder="Kinolarni qidiring"/>
+
+          <select class="sort">
+            <option value="sort" selected disabled>Sort</option>
+            <option value="az">A-z</option>
+            <option value="za">Z-a</option>
+            <option value="yil">Yil</option>
+            <option value="rating">Reyting</option>
+          </select>
+          
+          <button class="btn-1 car">Yuborish</button>
+        </form>
+      </div>
+    </div>
+
+
+    <template>
+      <div class="card">
+        <div class="cards">
+          <img src="" alt="" class="img-1" />
+          <h1>Name</h1>
+          <br />
+          <h3>
+            Yili :
+            <h4>Date</h4>
+          </h3>
+          <br />
+          <h3>
+            reyting :
+            <h5>5</h5>
+          </h3>
+          <br />
+          <h3>
+            janri :
+            <h6></h6>
+          </h3> <br>
+          <h3>Kino haqida qisqacha :</h3>
+          <div class="kino">
+            <p></p>
+          </div>
+          <div class="card-btn">
+            <button>Saqlash</button>
+            <button><a href="">Trailer</a></button>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- <template>
+      <lord-icon
+    src="https://cdn.lordicon.com/vacmyjrh.json"
+    trigger="hover"
+    style="width:250px;height:250px">
+   </lord-icon>
+    </template> -->
+
+    <!-- <div class="card"> -->
+    <!-- </div> -->
+    <div class="text"></div>
+    <div class="card"></div>
+
+    <script src="./kinolar.js"></script>
+    <script src="./uitls.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
